@@ -25,7 +25,7 @@ body {
 .rightnav {
     background:#306BAC;
     box-shadow: 0 10px 8px 0 rgb(0, 0, 0);
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
@@ -46,7 +46,7 @@ body {
 .menu li{
 	padding-left: 0;
     font-size: 20px;
-    float:left;
+    float: left;
     padding: 10px;
     padding-bottom: 5px;
 }
@@ -123,7 +123,8 @@ div.languages p {
     margin-top: 35px;
 }
 
-.icons {
+a.icons,
+img.icons {
     height: 2rem;
     width: 2rem;
 }
@@ -161,9 +162,4 @@ div.programming ul li {
 
 section.gaming {
     margin-bottom: 75px;
-}
-
-a.icons {
-    height: 1.9rem;
-    width: 2rem;
 }
