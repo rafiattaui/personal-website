@@ -1,0 +1,169 @@
+body {
+    background-color: #141B41;
+}
+.libre-franklin-all {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.montserrat-body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.raleway-main {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.rightnav {
+    background:#306BAC;
+    box-shadow: 0 10px 8px 0 rgb(0, 0, 0);
+    width: 95%;
+    margin: auto;
+}
+
+.navcontents {
+    display: inline-flex;
+    justify-content: space-between;
+    overflow: none;
+}
+
+.menu{
+	margin: 0;
+	display: inline-flex;
+	list-style: none;
+	padding: 0;
+    overflow: none;
+}
+
+.menu li{
+	padding-left: 0;
+    font-size: 20px;
+    float:left;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+ 
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+
+.menu li a:hover{
+    background-color: white;
+    color: black;
+}
+
+section.textbox {
+    background-color: #6F9CEB;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    align-content: center;
+    width: 55%;
+    text-align: center;
+    color: white;
+}
+
+.header {
+    font-weight: bold;
+}
+
+img.pfp {
+    float: left;
+    height: 10rem;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+div.text {
+    text-align: left;
+    padding-left: 225px;
+    margin-right: 25px;
+}
+
+div.info ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+img.python {
+    float: left;
+    height: 8rem;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    border-radius: 35%;
+}
+
+div.languages {
+    margin-top: 50px;
+}
+
+label#python {
+    color: yellow;
+    font-weight: 900;
+}
+
+div.languages p {
+    margin-top: 35px;
+}
+
+.icons {
+    height: 2rem;
+    width: 2rem;
+}
+
+.games {
+    float: left;
+    height: 10rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    width: 17rem;
+}
+
+div.hobbies {
+    margin-top: 1.5rem;
+    margin-left: 20px;
+}
+
+div.hobbies ul li.listheader,
+div.programming ul li.listheader {
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+    margin-left:20px;
+}
+
+div.hobbies ul li {
+    margin-left: 50px;
+}
+
+div.programming ul li {
+    margin-left: 70px;
+}
+
+section.gaming {
+    margin-bottom: 75px;
+}
+
+a.icons {
+    height: 1.9rem;
+    width: 2rem;
+}
