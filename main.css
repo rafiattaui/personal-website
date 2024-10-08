@@ -185,7 +185,8 @@ section.gaming {
     }  
 
     div.text,
-    div.languages {
+    div.languages,
+    section.gaming {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -193,12 +194,14 @@ section.gaming {
         margin-left: 20px;
     }
 
-    section.textbox {
+    section.textbox,
+    section.gaming,
+    div.programming {
         align-items: center;
         padding-left: 10px;
         padding-right: 10px;
 
-    .python, .pfp, .text {
+    .python, .pfp, .text,games {
             margin-left: auto;
             margin-right: auto;
         }
@@ -210,10 +213,13 @@ section.gaming {
         .python {
             margin-bottom: 0px;
         }
-
-
+    
+    img.games {
+        display: flex;
+        align-items: center;
     }
 
-
-
-}
+    div.hobbies ul li {
+        float: left;
+        align-items: left;
+    }
