@@ -217,11 +217,17 @@ section.gaming {
     img.games {
         display: flex;
         align-items: center;
+        margin-left: auto;
     }
 
     div.hobbies ul li {
         float: left;
         align-items: left;
+    }
+
+    div.programming ul li {
+        margin-bottom: auto;
+        margin-left: 0px;
     }
     }
 }
