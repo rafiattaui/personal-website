@@ -2,14 +2,7 @@ body {
     background-color: #141B41;
 }
 
-/* 
- * Fonts for website
- * 
- * This section defines the font families and styles used throughout the website.
- * It includes custom font imports and sets the default font properties for 
- * various HTML elements to ensure consistent typography.
- */
-
+/* Apply Libre Franklin font to all elements with this class */
 .libre-franklin-all {
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
@@ -38,14 +31,7 @@ body {
     margin: auto;
 }
 
-/* 
- * Header for website
- * 
- * This section defines the header bar for the website. It includes the header
- * background color, height, and text color. It also includes the header
- * text alignment and padding.
- */
-
+/* Style for the navigation contents */
 .navcontents {
     display: inline-flex;
     justify-content: space-between;
@@ -84,8 +70,7 @@ body {
     color: black;
 }
 
-/* CSS for textbox to text to be included in the website */
-
+/* Style for the textbox section */
 section.textbox {
     background-color: #6F9CEB;
     margin: auto;
@@ -183,8 +168,7 @@ section.gaming {
     margin-bottom: 75px;
 }
 
-/* Responsive design for website for devices max width of 768px */
-
+/* Responsive styles for screens with max width of 768px */
 @media all and (max-width: 768px) {
     div.info ul li{
         float: center;
