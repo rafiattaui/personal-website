@@ -1,85 +1,72 @@
-/* Set the background color for the entire body */
 body {
     background-color: #141B41;
 }
-
-/* Apply Libre Franklin font to all elements with this class */
 .libre-franklin-all {
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-}
+  }
 
-/* Apply Montserrat font to all elements with this class */
 .montserrat-body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-}
+  }
 
-/* Apply Raleway font to all elements with this class */
 .raleway-main {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-}
+  }
 
-/* Style for the right navigation bar */
 .rightnav {
-    background: #306BAC;
+    background:#306BAC;
     box-shadow: 0 10px 8px 0 rgb(0, 0, 0);
     width: 90%;
     margin: auto;
 }
 
-/* Style for the navigation contents */
 .navcontents {
     display: inline-flex;
     justify-content: space-between;
     overflow: none;
 }
 
-/* Style for the menu */
-.menu {
-    margin: 0;
-    list-style: none;
-    padding: 0;
+.menu{
+	margin: 0;
+	list-style: none;
+	padding: 0;
     overflow: none;
 }
 
-/* Style for each menu item */
-.menu li {
-    padding-left: 0;
+.menu li{
+	padding-left: 0;
     font-size: 20px;
     float: left;
     padding: 10px;
     padding-bottom: 5px;
 }
-
-/* Style for the menu links */
-.menu li a {
-    color: white;
-    text-decoration: none;
+ 
+.menu li a{
+	color: white;
+	text-decoration: none;
 }
 
-/* Duplicate menu class with flex display */
-.menu {
-    margin: 0;
-    display: flex;
-    list-style: none;
-    padding: 0;
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
 }
 
-/* Hover effect for menu links */
-.menu li a:hover {
+.menu li a:hover{
     background-color: white;
     color: black;
 }
 
-/* Style for the textbox section */
 section.textbox {
     background-color: #6F9CEB;
     margin: auto;
@@ -92,12 +79,10 @@ section.textbox {
     box-shadow: 0 10px 8px 0 rgb(0, 0, 0);
 }
 
-/* Style for headers */
 .header {
     font-weight: bold;
 }
 
-/* Style for profile picture */
 img.pfp {
     float: left;
     height: 10rem;
@@ -106,20 +91,17 @@ img.pfp {
     margin-bottom: 25px;
 }
 
-/* Style for text div */
 div.text {
     text-align: left;
     padding-left: 225px;
     margin-right: 25px;
 }
 
-/* Style for list items in info div */
 div.info ul li {
     margin-bottom: 10px;
     font-size: 20px;
 }
 
-/* Style for Python image */
 img.python {
     float: left;
     height: 8rem;
@@ -128,30 +110,25 @@ img.python {
     border-radius: 35%;
 }
 
-/* Style for languages div */
 div.languages {
     margin-top: 50px;
 }
 
-/* Style for Python label */
 label#python {
     color: yellow;
     font-weight: 900;
 }
 
-/* Style for paragraphs in languages div */
 div.languages p {
     margin-top: 35px;
 }
 
-/* Style for icons */
 a.icons,
 img.icons {
     height: 2rem;
     width: 2rem;
 }
 
-/* Style for games images */
 .games {
     float: left;
     height: 10rem;
@@ -162,39 +139,33 @@ img.icons {
     width: 17rem;
 }
 
-/* Style for hobbies div */
 div.hobbies {
     margin-top: 1.5rem;
     margin-left: 20px;
 }
 
-/* Style for list headers in hobbies and programming divs */
 div.hobbies ul li.listheader,
 div.programming ul li.listheader {
     margin-bottom: 5px;
     text-decoration: none;
     list-style: none;
-    margin-left: 20px;
+    margin-left:20px;
 }
 
-/* Style for list items in hobbies div */
 div.hobbies ul li {
     margin-left: 50px;
 }
 
-/* Style for list items in programming div */
 div.programming ul li {
     margin-left: 70px;
 }
 
-/* Style for gaming section */
 section.gaming {
     margin-bottom: 75px;
 }
 
-/* Responsive styles for screens with max width of 768px */
 @media all and (max-width: 768px) {
-    div.info ul li {
+    div.info ul li{
         float: center;
     }
 
@@ -206,12 +177,12 @@ section.gaming {
     }
 
     .pfp, .python {
-        float: center;
+        float:  center;
     }
 
-    .aboutme {
+    .aboutme{
         text-align: center;
-    }
+    }  
 
     div.text,
     div.languages,
@@ -229,21 +200,20 @@ section.gaming {
         align-items: center;
         padding-left: 10px;
         padding-right: 10px;
-    }
 
-    .python, .pfp, .text, .games {
-        margin-left: auto;
-        margin-right: auto;
-    }
+    .python, .pfp, .text,games {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        div.languages {
+            margin-top: 10px;
+        }
 
-    div.languages {
-        margin-top: 10px;
-    }
-
-    .python {
-        margin-bottom: 0px;
-    }
-
+        .python {
+            margin-bottom: 0px;
+        }
+    
     img.games {
         display: flex;
         align-items: center;
@@ -258,5 +228,6 @@ section.gaming {
     div.programming ul li {
         margin-bottom: auto;
         margin-left: 0px;
+    }
     }
 }
